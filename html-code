@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>music web/prj</title>
+    /* style is fetched from outside source */
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    /* coonecting link inside source */
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    /* inside style only for menu bar */
+
+    <style>
+      body {
+        margin: 0;
+        background-color: rgb(0, 0, 0);
+      }
+      .icon-bar {
+        width: 70px;
+        background-color: rgb(0, 0, 0);
+      }
+
+      .icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 16px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 36px;
+      }
+
+      .icon-bar a:hover {
+        background-color: rgba(255, 255, 255, 0.664);
+      }
+    </style>
+
+    * html actual content */
+
+    <div class="icon-bar">
+      <div class="logo">
+        <a href=""><img src="med/logo.png" alt=""></a>
+      </div>
+      <a class="active" href="#"><i class="fa fa-home"></i></a>
+      <a href="#"><i class="fa fa-search"></i></a>
+      <a href="#"><i class="fa fa-envelope"></i></a>
+      <a href="#"><i class="fa fa-globe"></i></a>
+      <a href="#"><i class="fa fa-trash"></i></a>
+    </div>
+    <div class="bg-image"></div>
+    <div class="bg-text">
+      <h2>Blast Past Fast</h2>
+      <h1 style="font-size: 50px">iPhone</h1>
+      <p>Be the next one to buy it.</p>
+      <h3>ios-apple</h3>
+    </div>
+    </div>
+  
+
+<div style="text-align:center">
+  <h2 style="color: rgb(87, 240, 219);">TAKE A TOUR...</h2>
+  <pre style="color: aliceblue;">iPhone 12 and iPhone 12 mini
+    Blast past fast.
+    
+    From ₹69900* before trade‑in
+    
+    Pre-order in purple starting at
+    5:30 PM IST on 23 April, available from 30 April</pre>
+</div>
+
+<!-- The App Section -->
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>The App</b></h1>
+      <h1 class="large-font" style="color:rgb(21, 80, 148);"><b>Why buy it?</b></h1>
+      <p><span style="font-size:36px">Take photos like a pro.</span> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <button class="button">Visit Now</button>
+    </div>
+    <div class="column-33">
+        <img src="med/i.png" width="335" height="471">
+    </div>
+  </div>
+</div>
+
+<!-- Clarity Section -->
+<div class="container" style="background-color:#131212">
+  <div class="row">
+    <div class="column-33">
+      <img src="med/2.png" alt="App" width="335" height="471">
+    </div>
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>Clarity</b></h1>
+      <h1 class="large-font" style="color:rgb(119, 27, 131);"><b>Pixels, who?</b></h1>
+      <p><span style="font-size:24px">A revolution in resolution.</span> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <button class="button" style="background-color:rgb(83, 27, 136)">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- The App Section -->
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>The Feature</b></h1>
+      <h1 class="large-font" style="color:rgb(22, 157, 175);"><b>Best way to buy</b></h1>
+      <p><span style="font-size:36px">why apple is best place to buy <br> iPhone</span> <br>
+        You can choose a payment option that works for you, pay less with a trade‑in, connect your new iPhone to your carrier and get set up quickly.
+        You can also chat with a Specialist anytime. </p>
+      <button class="button">Download Application</button><br>
+    </div>
+    <div class="column-33">
+        <img src="med/3.png" width="335" height="471" >
+    </div>
+  </div>
+  
+<pre> <h1>Switch to iPhone</h1>
+  
+                    So many reasons. So incredibly easy.</pre><br>
+
+<div class="container1"> 
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/SQIbeAk-bFA"></iframe>
+</div>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="india">India</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<div class="chip">
+  <img src="med/manoj.png" alt="Person" width="96" height="96">
+  Manoj CT0019
+</div>
+<div class="chip">
+  <img src="med/vikas.png" alt="Person" width="96" height="96">
+  Vikas CT00
+</div>
+<div class="chip">
+  <img src="med/dhanush.png" alt="Person" width="96" height="96">
+  Dhanush CT00
+</div>
+<div class="chip">
+  <img src="med/shreyas.png" alt="Person" width="96" height="96">
+  Shreyas CT00
+</div>
+
+  
+    
+  
+
+</body>
+</html>
